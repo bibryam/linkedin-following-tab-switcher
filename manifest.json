@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Home Following Feed Switcher",
+  "version": "1.0.0",
+  "description": "Automatically switches LinkedIn's Home feed to the 'Following' tab.",
+  "author": "Bilgin Ibryam (@bibryam)",
+  "homepage_url": "https://github.com/bibryam/linkedin_home_following_feed_switcher",
+  "permissions": [],
+  "host_permissions": ["https://www.linkedin.com/feed/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/feed/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
