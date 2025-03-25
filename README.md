@@ -2,6 +2,8 @@
 
 **Don't let LinkedIn dictate what you see — take control of your feed.**
 
+![overview.png](overview.png)
+
 This Chrome extension automatically switches your LinkedIn Home page to the **"Following"** tab, so you only see updates from people and pages you chose to follow — not algorithmically suggested content.
 
 ---
@@ -49,7 +51,6 @@ git clone https://github.com/bibryam/linkedin-following-tab-switcher.git
 
 ---
 ## 👤 Author
-**Bilgin Ibryam**  
-[@bibryam on X](https://x.com/bibryam)
+**Bilgin Ibryam** [@bibryam](https://x.com/bibryam)
 
 ---
